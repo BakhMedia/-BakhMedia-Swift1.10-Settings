@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Values</key>
+			<array>
+				<string>Все</string>
+				<string>Swift</string>
+				<string>Android</string>
+				<string>Сервер</string>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>Все</string>
+				<string>Swift</string>
+				<string>Android</string>
+				<string>Сервер</string>
+			</array>
+			<key>Key</key>
+			<string>favoriteTheme</string>
+			<key>Title</key>
+			<string>Интересные темы</string>
+			<key>DefaultValue</key>
+			<string>Все</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Имя</string>
+			<key>Key</key>
+			<string>chatNameField</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Присылать уведомление</string>
+			<key>Key</key>
+			<string>notificateMe</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Кол-во новостей на странице</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>countPerPage</string>
+			<key>DefaultValue</key>
+			<integer>5</integer>
+			<key>MinimumValue</key>
+			<integer>5</integer>
+			<key>MaximumValue</key>
+			<integer>30</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
